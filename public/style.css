@@ -1,0 +1,17 @@
+
+body {
+    background-color: #1e1e1e;
+}
+
+.ti {
+    position: relative;
+    left: 1%;
+    color: white;
+    font-family: 'Sora';
+    font-size: 38px;
+}
+
+.line {
+    border: 2px solid #383838;
+    align-self: left;
+}
