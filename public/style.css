@@ -1,3 +1,10 @@
+:root {
+    --cinza_claro: #383838;
+    --cinza: #272727;
+    --preto: #151515;
+    --amount: 190px;
+}
+
 
 body {
     background-color: #1e1e1e;
@@ -11,7 +18,64 @@ body {
     font-size: 38px;
 }
 
+.det {
+    position: absolute;
+    left: 12%;
+    top: 24%;
+    color: white;
+    font-family: 'Sora';
+    font-size: 38px;
+}
+
 .line {
-    border: 2px solid #383838;
-    align-self: left;
+    position: absolute;
+    color: #383838;
+    border-color: var(--cinza_claro);
+    stroke: var(--cinza_claro);
+    border-width: 3px;
+    align: left;
+    size: 6px;
+    width: 85%;
+    top:94%;
+}
+.ret {
+    position: absolute;
+    width: 94px;
+    height: 452px;
+    left: 4%;
+    top: 26%;
+    stroke: #383838;
+    border: var(--cinza_claro);
+    background: #383838;
+}
+.ret_a {
+    position: absolute;
+    width: 94px;
+    height: 452px;
+    left: 5%;
+    top: 24%;
+    stroke: var(--cinza);
+    border: var(--cinza);
+    background: var(--cinza);
+}
+.ret_b {
+    position: absolute;
+    width: 94px;
+    height: 452px;
+    left: 6%;
+    top: 22%;
+    stroke: var(--preto);
+    border: var(--preto);
+    background: var(--preto);
+}
+.bar {
+    position: absolute;
+    background-color: var(--cinza_claro);
+    height: var(--amount);
+    width: 32px;
+    left: 3%;
+    top: 81%;
+    stroke: #383838;
+    border: var(--cinza_claro);
+    background: #383838;
 }

@@ -27,3 +27,6 @@ onValue(usersRef, (snapshot) => {
   const data = snapshot.val();
     console.log(data)
 });
+
+var root = document.documentElement();
+root.style.setProperty('--amount', 133)
