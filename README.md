@@ -1,6 +1,6 @@
 <h2 align="center"> Urubank ADM Pannel - ZecaAnálise.</h2>
 <h1 align="center">
-<img src="public/res/WhatsApp Image 2022-09-12 at 11.26.58.jpeg">
+<img src="docs/res/WhatsApp Image 2022-09-12 at 11.26.58.jpeg">
 </h1>
 
 ## Overview
@@ -17,11 +17,11 @@
 ## Conceitual
 Página inicial para login do administrador do sistema
 
-<img src="public/res/Home.svg">
+<img src="docs/res/Home.svg">
 
 Página de métricas para análises
 
-<img src="public/res/Brief.svg">
+<img src="docs/res/Brief.svg">
 
 ## Configuração
 preencher
