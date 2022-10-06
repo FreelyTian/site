@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set, onValue } from "firebase/database";
-import {chartjs};
+require ('chartjs')
 import BarChart from "chartjs";
 
 // TODO: Replace the following with your app's Firebase project configuration
@@ -40,7 +40,7 @@ var data = {
     label: 'nnomes',
     backgroundColor: 'rgb(727372)',
     borderColor: 'rgb(151515)',
-    data: usersRef,
+    data: [12, 33, 29, 30],
   }]
 };
 

@@ -79,3 +79,7 @@ body {
     border: var(--cinza_claro);
     background: #383838;
 }
+
+.c {
+    align-self: center;
+}
