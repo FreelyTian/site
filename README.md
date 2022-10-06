@@ -1,16 +1,38 @@
-# Urubank ADM Pannel.
-## Repositório contendo os arquivos do mesmo.
-## Objetivos:
-  - Providenciar uma analise consistente dos dados do banco.
-  - Criar com isso gráficos confiáveis.
-  - Usá-los para guiar nosso marketing de forma personalizada incluindo:
-    - Melhor região.
-    - Melhor faixa etária.
-    - Rendimento geral do banco. # Para verificar se as medidas estão surtindo o devido efeito.
-    - entre outros que podem ser decididos em reunião com cliente
-    
+<h2 align="center"> Urubank ADM Pannel - ZecaAnálise.</h2>
+<h1 align="center">
+<img src="public/res/WhatsApp Image 2022-09-12 at 11.26.58.jpeg">
+</h1>
+
 ## Overview
-  Isso vem principalmente pra evitar dores de cabeça com investimentos inúteis focando principalmente na publicidade
-  pois, investir em publicidade em locais onde não somos muito bem conhecidos ou aceitos, nos fará perder muito dinheiro
-  e isso seria um desastre pra uma startup sem recursos pra esbanjar como a nossa.
-  Por isso é importante ter bases sólidas pra fomentar nossos investimentos.
+  Nosso sistema vem pra trazer métricas sólidas e transformá-las em gráficos intuitivos que facilitem o processo de análise. Com isso traremos mais eficiência e qualidade principalmente pro setor de marketing e planejamento que poderá tomar suas decisões mais tranquilo. Embora existam muitos sistemas que entreguem algo parecido (Como o Sentry por exemplo) o nosso sistema é dedicado e 100% personalizável. Conheça mais lendo logo abaixo 😉
+  
+## Funcionalidades
+  - Gráfico de localidade da população de clientes
+    - Com finalidade de apontar as melhores regiões pro setor de marketing
+  - Gráfico de idade da população de clientes
+    - Com finalidade de direcionar nossas investidas de acordo com a idade majoritária do público-alvo 
+  - Gráfico de Rendimento mensal
+    - Para como métrica auxiliar nas decisões de investimento do próprio banco
+  
+## Conceitual
+Página inicial para login do administrador do sistema
+
+<img src="public/res/Home.svg">
+
+Página de métricas para análises
+
+<img src="public/res/Brief.svg">
+
+## Configuração
+preencher
+
+## Rotas
+preencher
+
+## Sobre nós
+preencher
+  <!-- - [A ZecaUrubank©](https://github.com/ -->
+  
+##
+Colaboradores:
+[Samuel Araújo](https://github.com/FreelyTian)
