@@ -1,5 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set, onValue } from "firebase/database";
+import {chartjs};
+import BarChart from "chartjs";
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
@@ -19,7 +21,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-
 // Initialize Realtime Database and get a reference to the service
 const db = getDatabase(app);
 const usersRef = ref(db, '/Users');
@@ -27,6 +28,29 @@ onValue(usersRef, (snapshot) => {
   const data = snapshot.val();
     console.log(data)
 });
+var labels = [
+  'teste',
+  'test',
+  'tes',
+  'te'
+]
+var data = {
+  labels: labels,
+  datasets: [{
+    label: 'nnomes',
+    backgroundColor: 'rgb(727372)',
+    borderColor: 'rgb(151515)',
+    data: usersRef,
+  }]
+};
 
-var root = document.documentElement();
-root.style.setProperty('--amount', 133)
+const config = {
+  type: 'line',
+  data: data,
+  options: {}
+};
+
+const graph = new Chart(
+  document.getElementById('teste'),
+  config
+);
