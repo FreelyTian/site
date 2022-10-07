@@ -35,4 +35,7 @@ preencher
   
 ##
 Colaboradores:
-[Samuel Araújo](https://github.com/FreelyTian)
+- [Samuel Araújo](https://github.com/FreelyTian)
+- [João Neto da Silva](https://github.com/TaoAleatoro)
+- [Esther Kohtz Frank](https://github.com/kothz)
+- [Maria Clara Oliveira](https://github.com/clarasoliveira)
