@@ -8,8 +8,8 @@
     <title> Urubank </title>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/public/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
+    <script src="/docs/index.js"></script>
     <div >
       <p class="ti"> Expectativas de Mercado</p>
       <hr color="#383838" align="left"  size="3px" width="85%"/>
@@ -20,7 +20,32 @@
       <hr class="ret"/>
     </div>
     <div>
-      <canvas id="teste" width="400" height="300" class="c"></canvas>
+      <canvas id="teste" class="c"></canvas>
+      <script>
+        var labels = [
+          'Norte',
+          'Nordeste',
+          'Sudoeste',
+        ]
+        var data = {
+          labels: labels,
+          datasets: [{
+            label: 'nomes',
+            backgroundColor:['rgba(40, 195, 61, 1)', 'rgba(34, 149, 50, 1)', 'rgba(22, 103, 33, 1)'],
+            hoverBackgroundColor: 'rgba(79, 218, 63, 1)',
+            data: [36, 22, 16,],
+          }],
+        };
+        const config = {
+          type: 'doughnut',
+          data: data,
+          options: {}
+        };
+        const graph = new Chart(
+          document.getElementById('teste'),
+          config
+        );
+      </script>
     </div>
     <div>
       <h1> IEPA </h1>

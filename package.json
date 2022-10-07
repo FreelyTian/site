@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FreelyTian/Urubank-site.git"
+    "url": "git+https://github.com/FreelyTian/site.git"
   },
   "keywords": [
     "site",
@@ -19,11 +19,13 @@
   "author": "FreelyTian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FreelyTian/Urubank-site/issues"
+    "url": "https://github.com/FreelyTian/site/issues"
   },
-  "homepage": "https://github.com/FreelyTian/Urubank-site#readme",
+  "homepage": "https://github.com/FreelyTian/site#readme",
   "dependencies": {
+    "chartjs": "^0.3.24",
     "firebase": "^9.10.0",
-    "firebase-admin": "^11.0.1"
+    "firebase-admin": "^11.0.1",
+    "firebase-tools": "^11.13.0"
   }
 }

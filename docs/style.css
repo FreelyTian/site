@@ -81,5 +81,8 @@ body {
 }
 
 .c {
-    align-self: center;
+    position: fixed;
+    top: 181px;
+    left: 214px;
+    border: #151515 solid 3px;
 }

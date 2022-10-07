@@ -1,8 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, onValue } from "firebase/database";
-require ('chartjs')
-import BarChart from "chartjs";
-
+import { getDatabase, ref, onValue } from "firebase/database";
+import {Chart} from "chartjs/chart";
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
@@ -36,12 +34,12 @@ var labels = [
 ]
 var data = {
   labels: labels,
-  datasets: [{
-    label: 'nnomes',
+  datasets: {
+    label: 'nomes',
     backgroundColor: 'rgb(727372)',
     borderColor: 'rgb(151515)',
-    data: [12, 33, 29, 30],
-  }]
+    data: [12, 33, 29, 30, 98],
+  }
 };
 
 const config = {
