@@ -8,8 +8,8 @@
     <title> Urubank </title>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/public/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
+    <script src="/docs/index.js"></script>
     <div >
       <p class="ti"> Expectativas de Mercado</p>
       <hr color="#383838" align="left"  size="3px" width="85%"/>
@@ -20,7 +20,59 @@
       <hr class="ret"/>
     </div>
     <div>
-      <canvas id="teste" width="400" height="300" class="c"></canvas>
+      <canvas id="teste" height="150" class="c"></canvas>
+      <script>
+        var labels = [
+          'Janeiro',
+          'Fevereiro',
+          'Março',
+          'Abril',
+          'Maio',
+          'Junho',
+          'Julho',
+          'Agosto',
+          'Outubro',
+          'Novembro',
+          'Dezembro',
+          'Janeiro',
+          'Fevereiro',
+          'Março',
+          'Abril',
+          'Maio',
+          'Junho',
+          'Julho',
+          'Agosto',
+          'Outubro',
+          'Novembro',
+          'Dezembro'
+        ]
+        var data = {
+          labels: labels,
+          datasets: [{
+      data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+      borderColor: "red",
+      fill: false
+    },{
+      data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+      borderColor: "green",
+      fill: false
+    },{
+      data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+      borderColor: "blue",
+      fill: false
+    }]
+        };
+
+        const config = {
+          type: 'line',
+          data: data,
+          options: {}
+        };
+        const graph = new Chart(
+          document.getElementById('teste'),
+          config
+        );
+      </script>
     </div>
   </body>
 </html>
