@@ -14,8 +14,7 @@ A partir disso, houve a ideia de se criar um sistema capaz de captar esses dados
 
 ## Funcionalidades
 As funcionalidades ou produtos gerados pelo nosso sistema de gerenciamento de dados, os quais são advindos da startup bancária ZecaUrubank, estão intrinsecamente relacionados aos processos de gestão de conhecimento. Tais processos são primordiais para a empresa obter um gerenciamento inteligente, evitando perdas e danos prejudiciais ao desenvolvimento dessa startup.
-Por isso, antes de explicarmos quais serão as funcionalidades disponíveis em nosso sistema  devemos definir o que são esses processos, a sua importância para o desenvolvimento do projeto e como esses estão relacionados às funcionalidades do nosso projeto.
-O que são Processos de Gestão de Conhecimento?
+
 
 <h4 align="center"> Funcionalidades X Processos de gestão de conhecimento
 <table align="center">
