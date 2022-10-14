@@ -106,8 +106,8 @@ Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as inf
 		src="docs/res/WhatsApp Image 2022-10-12 at 20.42.29 (1).jpeg">
     <a href="https://github.com/FreelyTian"> Samuel Araújo </a> <br>
 		Bonjour Meu nome é Samuel Sou natural de Miracema do Tocantins, atualmente estagiário na Sefaz (Secretaria da Fazenda) e estudo Engenharia de software na Unicatólica Palmas. Nesse projeto atuo como
-    <a href="https://www.atlassian.com/br/agile/scrum/scrum-master"> Scrum master. </a> e
-    <a href="https://querobolsa.com.br/carreiras-e-profissoes/dba-administrador-de-banco-de-dados"> DBA. 
+    <a href="https://www.atlassian.com/br/agile/scrum/scrum-master" target="_blank"> Scrum master. </a> e
+    <a href="https://querobolsa.com.br/carreiras-e-profissoes/dba-administrador-de-banco-de-dados" target="_blank"> DBA. 
     </a> até o momento tem sido um projeto divertido - com seus desafios mas divertido - no qual pude ter muitas novas experiências bem úteis pra minha       carreira que ainda está no seu início mas é um bom início.
 </p>
 <br> <br> <br> <br> <br> 
