@@ -48,11 +48,12 @@ Página de métricas para análises
 
 <img src="docs/res/Brief.svg">
 
-## Configuração
-preencher
-
 ## Rotas
 preencher
+
+## Modelo e banco
+
+
 
 ## Sobre nós
 preencher
@@ -60,6 +61,9 @@ preencher
   
 ##
 Colaboradores:
+
+#
+<img src="tal" style="border-radius: 50%;">
 - [Samuel Araújo](https://github.com/FreelyTian)
 - [João Neto da Silva](https://github.com/TaoAleatoro)
 - [Esther Kohtz Frank](https://github.com/kothz)
