@@ -137,5 +137,5 @@ Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as inf
 		alt="Maria Clara"
 		src="docs/res/WhatsApp Image 2022-10-14 at 19.55.19.jpeg">
     <a href="https://github.com/clarasoliveira"> Maria Clara Oliveira </a> <br>
-    Olá sou Maria Clara, sou de Palmas estudo na Universidade católica do Tocantins e auxiliei na parte de documentação e aplicação dos processos de gestão de conhecimento.
+    Olá me chamo Maria Clara, sou de Palmas, curso Engenharia de software na Universidade católica do Tocantins e auxiliei na parte de documentação e aplicação dos processos de gestão de conhecimento.
 </p>
