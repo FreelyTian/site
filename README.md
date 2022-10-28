@@ -117,8 +117,9 @@ Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as inf
 		alt="Esther"
 		src="docs/res/WhatsApp Image 2022-10-14 at 19.40.42.jpeg">
     <a href="https://github.com/kothz"> Esther Kothz Frank </a> <br>
+		Hello World!
 		Meu nome é Esther Kohtz Frank, sou estudante de Engenharia de Software na Universidade Católica do Tocantins.
-    Neste projeto atuo aplicando os processos de gestão de conhecimento as suas funcionalidades.
+    Neste projeto atuo aplicando os processos de gestão de conhecimento as suas funcionalidades, e com a parte de documentação do Sistema.
 </p>
 <br> <br> <br> <br> <br> <br> <br> 
 <p align="left">
