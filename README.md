@@ -97,7 +97,7 @@ Banco em si em fase de validação <br>
 <img src="docs/res/model.png" alt="Banco em si"> <br>
 Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as informações do usuário pelo seu código único no sistema do nosso cliente - por enquanto estamos usando um banco de desenvolvimento sem integração com o final - e a outra para guardar os dados que interesssam pra nossa análise. 
 
-# Contitucional:
+# Constitucional:
 [Termos e condições](docs/res/MDs/terms.md) </br>
 [Regras de negócio e Rotas](docs/res/MDs/RN-RT.md) </br>
 [Histórias de Usuário](docs/res/MDs/US.md)
