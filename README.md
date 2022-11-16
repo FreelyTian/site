@@ -133,6 +133,9 @@ Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as inf
 	</summary>
 Durante o desenvolvimento do back-end da nossa plataforma foram encontrados muitos problemas com os frameworks anteriores e isso nos forçou à medidas bem fortes. O projeto inicial previa um desenvolvimento com NodeJS e integração com o Firebase. Isso no entanto se provou uma tarefa impossível já que o Node não roda em navegador e nao encontramos implementação clara do JS puro com o firebase.
 	Foi por causa desses problemas que foi necessário que criássemos nossa própria API para busca e tratamento dos dados do banco de dados escolhido, que dessa vez foi o <a href="https://www.mongodb.com"> MongoDB</a>, cujo tem uma implementação relativamente simples com o framework utillizado pra construir a API que no caso é o FASTAPI
+</details>
+
+#
 
 ## Constitucional:
 [Termos e condições](docs/res/MDs/terms.md) </br>
