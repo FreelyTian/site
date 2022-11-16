@@ -2,16 +2,31 @@
 <h1 align="center">
 <img src="docs/res/WhatsApp Image 2022-09-12 at 11.26.58.jpeg">
 </h1>
-
-## Overview
+<!-- Esse modelo <details> e <summary> é pra deixar em modo colapsável-->
+<details>
+	<summary>
+		<h2> Overview </h2>
+	</summary>
   Nosso sistema vem pra trazer métricas sólidas e transformá-las em gráficos intuitivos que facilitem o processo de análise. Com isso traremos mais eficiência e qualidade principalmente pro setor de marketing e planejamento que poderá tomar suas decisões mais tranquilo. Embora existam muitos sistemas que entreguem algo parecido (Como o Sentry por exemplo) o nosso sistema é dedicado e 100% personalizável. Conheça mais lendo logo abaixo 😉
+</details>
 
-## Escopo do Projeto 
+#     <!-- Esse # é o separador-->
+
+<details>
+	<summary>
+		<h2>Escopo do Projeto</h2>
+	</summary>
 O Sistema de Análises de Dados Bancários surgiu a partir da necessidade da startup bancária ZecaUrubank em realizar investimentos inteligentes na sua empresa a fim de evitar perdas financeiras significativas que possam prejudicar o seu desenvolvimento. 
 Para melhor compreensão dessa exigência é essencial o entendimento da definição de uma startup. Esse termo tem origem inglesa e, traduzido de forma literal tem como significado: “empresa emergente”, por isso é utilizado para referir-se a empresas iniciantes que ainda estão na fase de definição de público-alvo e modelo de negócios. Dito isso, é compreensível que por ser uma entidade nova os seus recursos são limitados e, o seu alcance de público é baixo, por isso há essa necessidade de conhecer e compreender os usuários que estejam interessados em participar dessa empresa, no caso o Banco ZecaUrubank. 
 A partir disso, houve a ideia de se criar um sistema capaz de captar esses dados, agrupando-os de acordo com os critérios exigidos possibilitando a criação de gráficos para uma análise detalhada dos usuários do banco. Para a realização deste projeto concluiu-se que ele deveria ser capaz de permitir uma interação de dados, por isso está sendo utilizado para o seu desenvolvimento o framework Node.JS da linguagem JavaScript e o clássico HTML e CSS para estruturaçãoe estilização além da biblioteca Chart.js para a construção visual dos gráficos.
+</details>
 
-## Funcionalidades
+#
+
+<details>
+	<summary>
+		<h2>Funcionalidades</h2>
+	</summary>
 As funcionalidades ou produtos gerados pelo nosso sistema de gerenciamento de dados, os quais são advindos da startup bancária ZecaUrubank, estão intrinsecamente relacionados aos processos de gestão de conhecimento. Tais processos são primordiais para a empresa obter um gerenciamento inteligente, evitando perdas e danos prejudiciais ao desenvolvimento dessa startup.
 Por isso, antes de explicarmos quais serão as funcionalidades disponíveis em nosso sistema  devemos definir o que são esses processos, a sua importância para o desenvolvimento do projeto e como esses estão relacionados às funcionalidades do nosso projeto.
 
@@ -36,8 +51,14 @@ Por isso, antes de explicarmos quais serão as funcionalidades disponíveis em n
     <td> A partir das análises anteriores sobre as características dos usuários é possível realizar projeções ao usuário sobre a sua relação com o banco, o rendimento das suas aplicações </td>
   </tr>
 </table>
-  
-## Conceitual
+</details>
+	
+#
+
+<details>
+	<summary>
+		<h2>Conceitual</h2>
+	</summary>
 Página inicial para login do administrador do sistema
 
 <img src="docs/res/Home.svg">
@@ -88,21 +109,39 @@ As rotas no nosso sistema são todas bem simples:
 </table>
 </h4>
 	No momento só isso
-	
-## Modelo e banco
+</details>
+
+#
+
+<details>
+	<summary>
+		<h2>Modelo e banco</h2>
+	</summary>
 Modelo Lógico <br>
 <img src="docs/res/WhatsApp Image 2022-10-14 at 18.27.50.jpeg" alt="Modelo Lógico"> <br>
 <br>
 Banco em si em fase de validação <br>
 <img src="docs/res/model.png" alt="Banco em si"> <br>
 Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as informações do usuário pelo seu código único no sistema do nosso cliente - por enquanto estamos usando um banco de desenvolvimento sem integração com o final - e a outra para guardar os dados que interesssam pra nossa análise. 
+</details>
 
-# Constitucional:
+#
+
+<details>
+	<summary>
+		<h2> Nossa API </h2>
+	</summary>
+Durante o desenvolvimento do back-end da nossa plataforma foram encontrados muitos problemas com os frameworks anteriores e isso nos forçou à medidas bem fortes. O projeto inicial previa um desenvolvimento com NodeJS e integração com o Firebase. Isso no entanto se provou uma tarefa impossível já que o Node não roda em navegador e nao encontramos implementação clara do JS puro com o firebase.
+	Foi por causa desses problemas que foi necessário que criássemos nossa própria API para busca e tratamento dos dados do banco de dados escolhido, que dessa vez foi o <a href="https://www.mongodb.com"> MongoDB</a>, cujo tem uma implementação relativamente simples com o framework utillizado pra construir a API que no caso é o FASTAPI
+
+## Constitucional:
 [Termos e condições](docs/res/MDs/terms.md) </br>
 [Regras de negócio e Rotas](docs/res/MDs/RN-RT.md) </br>
 [Histórias de Usuário](docs/res/MDs/US.md)
 
-# Colaboradores:
+
+
+<h2 align="center">Colaboradores</h2>
 
 <p align="left">
 	<img width="256"
