@@ -10,3 +10,5 @@ fetch("https://zecanalizeapi.herokuapp.com/users")
     console.log(data.products)
   })
   .catch(error => console.log(error))
+
+console.log('existing folks')
