@@ -131,10 +131,24 @@ Nosso banco conta apenas com 2 tabelas no presente momento uma para puxar as inf
 	<summary>
 		<h2> Nossa API </h2>
 	</summary>
-Durante o desenvolvimento do back-end da nossa plataforma foram encontrados muitos problemas com os frameworks anteriores e isso nos forçou à medidas bem fortes. O projeto inicial previa um desenvolvimento com NodeJS e integração com o Firebase. Isso no entanto se provou uma tarefa impossível já que o Node não roda em navegador e nao encontramos implementação clara do JS puro com o firebase.
+	Durante o desenvolvimento do back-end da nossa plataforma foram encontrados muitos problemas com os frameworks anteriores e isso nos forçou à medidas bem fortes. O projeto inicial previa um desenvolvimento com NodeJS e integração com o Firebase. Isso no entanto se provou uma tarefa impossível já que o Node não roda em navegador e nao encontramos implementação clara do JS puro com o firebase.
 	Foi por causa desses problemas que foi necessário que criássemos nossa própria API para busca e tratamento dos dados do banco de dados escolhido, que dessa vez foi o <a href="https://www.mongodb.com"> MongoDB</a>, cujo tem uma implementação relativamente simples com o framework utillizado pra construir a API que no caso é o FASTAPI
-</details>
-
+	O FastAPI é um framework PPython voltado para o desenvolvimento de API'S.
+	Suas Principais características são:
+		- Rápido: as PAI'S desenvolvidas com FastAPI possuem alta perfomance. De tal forma que é considerado um dos framewors Python mais rápidos
+		- Intuitivo: o código de fonte do fframework foi inteiramente desenvolvido utilizando o recurso de type hints, que consiste na declaração antecipada de tipos de variáveis, parâmetros e valores de retorno de uma função, o que possibilita que IDE'S e Editores de Código Fonte possuam um melhor intellisense, fazendo assim com que se gaste menos tempo debugando o código.
+		- Fácil: foi inteiramente pensado para ser fácil de usar e aprender, fazendo assim com que se gaste menos tempo lendo a documentação.
+	
+	Para hostear nosso projeto optamos por uma plataforma cloud, sendo esse tipo de plataformas definidas como empresas que oferecem o serviço de manter e disponibilizar recursos de computação sob demanda. O Heroku a plataforma escolhida, já que nos permite hospedar código e não se preocupar muito com a disponibilidade, escala e infraestrutura da aplicação e, por ofeerecer categorias de uso gratuito para projetos não comerciais. Senod muito utilizada para aplicações de back-end, como as desenvolvidas em Node.js, Ruby, Java, PHP, Python, Go, entre outras.
+	
+	Como banco de dados o MongoDB foi o escolhido, sendo um banco de dados orientado a documentos que possui código aberto (open source) e que foi projetado para armazenar uma grande escala de dados, além de permitir que se trabalhe de forma eficiente com grandes volumes. Possuindo como vantagens como: 
+		- A permissão oara criar vários bancos de dados e várias coleções dentro do principal;
+		- Nas coleções estão os documentos que contêm os dados que serão armazenados no banco do MongoDB, sendo que uma única coleção pode conter vários documentos, os quais não necessitm ser semelhantes um ao outro já que não existe esquema de tipo;
+		- Nos documentos, pode-se armazenar dados aninhadoss. Essa conexão permite criar relações complexas entres eles e armazeená-los no mesmo documento, o que torna o trabalho de busca mais eficiente em relação ao SQL;
+		- Não é necessário projetar o esquema do banco de dados ao trabalhar com o mongoDB;
+		-Fornece grande flexibilidade para os campos nos documentos;
+		- Trabalha com dados heterogêneos;
+		- Não requer nenhuma adição ou injeção de SQL;
 #
 
 ## Constitucional:
