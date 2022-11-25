@@ -64,3 +64,8 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+#arquivos não úteis para o funcionamento do projeto
+generate.py
+main.py
+__pycache__
