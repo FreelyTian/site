@@ -86,3 +86,46 @@ body {
     left: 214px;
     border: #151515 solid 3px;
 }
+
+.popuDiv {
+    position: absolute;
+    left: 1227px;
+    top: 196px;
+    width: 600px;
+    height: 600px;
+}
+
+.barDiv {
+    position: absolute;
+    left: 27px;
+    top: 196px;
+    width: 1000px;
+    height: 200px;
+}
+
+.dado1 {
+    position: absolute;
+    left: 239px;
+    top: 256px;
+    color: white;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.dado2 {
+    position: absolute;
+    left: 239px;
+    top: 326px;
+    color: white;
+    font-family: 'Sora';
+    font-size: 28px;
+}
+
+.dado3 {
+    position: absolute;
+    left: 239px;
+    top: 386px;
+    color: white;
+    font-family: 'Sora';
+    font-size: 28px;
+}

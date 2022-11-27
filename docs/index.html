@@ -9,21 +9,24 @@
   </head>
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
-    <script src="/docs/index.js"></script>
+    <script src="index.js"></script>
     <div >
       <p class="ti"> Expectativas de Mercado</p>
       <hr color="#383838" align="left"  size="3px" width="85%"/>
     </div>
     <div>
       <hr class="ret_b"/>
+      <p id="Dado1" class="dado1"></p>
       <hr class="ret_a"/>
+      <p id="Dado2" class="dado2"></p>
       <hr class="ret"/>
+      <p id="Dado3" class="dado3"></p>
     </div>
-    <div>
-      
+    <div class="popuDiv">
+      <canvas id="popu"></canvas>
     </div>
-    <div>
-      <h1> IEPA </h1>
+    <div class="barDiv"> 
+      <canvas id="barr"></canvas>
     </div>
   </body>
 </html>
